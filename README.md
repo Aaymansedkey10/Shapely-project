@@ -1,4 +1,1 @@
-.Num-Project3 {
-    left: 25%;
-    top: 80%;
-}
+change the postion of button in projects setion 
