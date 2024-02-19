@@ -1,0 +1,112 @@
+/* start navbar section  */
+.nav_bar {
+    background-color: #f5f5f5;
+}
+.btn-search {
+    background-color: #5234f9 !important;
+}
+.ul_hover li a:hover {
+    color: #5234f9 !important;
+}
+/* End navbar section  */
+
+/* start header section  */
+.bg-header {
+    background-image: url(../Images/bg-header.jpg);
+    height: auto;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.text_center {
+    padding-top: 10%;
+}
+.btn-read{
+    background-color: #745cf9;
+    transition: all 0.5s ease-in-out;
+}
+.btn-read:hover {
+    background-color: #5d47d7;
+}
+.btn-download:hover {
+    background-color: #fff;
+    color: #000 !important;
+    transition: all 0.4s ease-in-out;
+}
+/* End header section  */
+
+/* start portfolio section  */
+.bg-portfolio {
+    background-color: #f5f5f5;
+}
+/* End portfilio section  */
+
+/* start Parallax setion  */
+.Parallax {
+    background-image: url(../Images/bg-Parallax.jpg);
+    height: auto;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+/* End parallax section  */
+
+/* start projects section  */
+.bg-projects{
+    background-color: #000;
+}
+.bg-projects .row {
+    --bs-gutter-x: 0rem;
+}
+.containerImg a span:hover {
+    color: #5234f9 !important;
+    transition: all 0.5s ease-in-out;
+}
+.containerImg a img:hover {
+    transform: scale(1.1);
+    .btn-project{
+        display: block !important;
+    }
+    transition: all 0.9S ease-in-out;
+} 
+.Num-Project1 {
+    left: 25%;
+    top: 13%;
+}
+.Num-Project2 {
+    left: 25%;
+}
+.Num-Project3 {
+    left: 25%;
+    bottom: 13%;
+}
+
+/* end projects section  */
+
+/* start customer && client section  */
+.bg-customer {
+    background-image: url(../Images/bg-slider.jpg);
+}
+.bg-customer img , .bg-client img  {
+    width: 50px;
+    height: 50px;
+}
+/* End customer && client section  */
+
+/* start download section  */
+.bg-download {
+    background-color: #f5f5f5;
+}
+/* eend download section  */
+
+ /* start footer section  */
+.footer p a:hover{
+    color: #5234f9 !important;
+    transition: all 0.3s ease-in-out;
+}
+.footer a i:hover{
+    color: #5234f9 !important;
+    transition: all 0.3s ease-in-out;
+
+}
+/* End footer section  */
