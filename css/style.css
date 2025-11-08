@@ -1,114 +1,164 @@
-*{
-    padding: 0;
-    margin: 0;
-    scroll-behavior: smooth;
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
 }
 /* start navbar section  */
 .nav_bar {
-    background-color: #f5f5f5;
+  background-color: #f5f5f5;
 }
 .btn-search {
-    background-color: #5234f9 !important;
+  background-color: #5234f9 !important;
 }
 .ul_hover li a:hover {
-    color: #5234f9 !important;
+  color: #5234f9 !important;
+}
+.h-80 {
+  height: 80vh;
 }
 /* End navbar section  */
 
 /* start header section  */
 .bg-header {
-    background-image: url(../Images/bg-header.jpg);
-    height: auto;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
+  background: radial-gradient(
+      circle,
+      rgba(0, 0, 0, 0.36) 100%,
+      rgba(0, 0, 0, 1) 100%
+    ),
+    url(../Images/bg-header.jpg);
+  height: auto;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
 }
 .text_center {
-    padding-top: 10%;
+  padding-top: 10%;
 }
-.btn-read{
-    background-color: #745cf9;
-    transition: all 0.5s ease-in-out;
+.btn-read {
+  background-color: #745cf9;
+  transition: all 0.5s ease-in-out;
 }
 .btn-read:hover {
-    background-color: #5d47d7;
+  background-color: #5d47d7;
 }
 .btn-download:hover {
-    background-color: #fff;
-    color: #000 !important;
-    transition: all 0.4s ease-in-out;
+  background-color: #fff;
+  color: #000 !important;
+  transition: all 0.4s ease-in-out;
 }
 /* End header section  */
 
 /* start portfolio section  */
 .bg-portfolio {
-    background-color: #f5f5f5;
+  background-color: #c9c9c9ff;
 }
 /* End portfilio section  */
 
 /* start Parallax setion  */
 .Parallax {
-    background-image: url(../Images/bg-Parallax.jpg);
-    height: auto;
-    background-position: center;
-    background-attachment: fixed;
-    
+  background: radial-gradient(
+      circle,
+      rgba(0, 0, 0, 0.36) 100%,
+      rgba(0, 0, 0, 1) 100%
+    ),
+    url(../Images/bg-Parallax.jpg);
+  background-position: center;
+  background-attachment: fixed;
 }
 /* End parallax section  */
 
 /* start projects section  */
-.bg-projects{
-    background-color: #000;
+.bg-projects {
+  background-color: #000;
 }
-.bg-projects .row {
-    --bs-gutter-x: 0rem;
+.project-card {
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  transition: all 0.4s ease;
 }
-.containerImg a span:hover {
-    color: #5234f9 !important;
-    transition: all 0.5s ease-in-out;
-    /* font-weight: 600; */
+.btn-outline-light:hover{
+    color: #000 !important;
 }
-.Num-Project1 {
-    left: 25%;
-    top: 13%;
-    font-weight: 600;
+
+.project-card:hover {
+  transform: scale(1.05);
+  cursor: pointer;
 }
-.Num-Project2 {
-    left: 25%;
-    font-weight: 600;
+
+/* single project background image*/
+.project-card-one {
+  background-image: url("../Images/project-16.jpg");
 }
-.Num-Project3 {
-    left: 25%;
-    top: 80%;
-    font-weight: 600;
+
+.project-card-two {
+  background-image: url("../Images/project-12.jpg");
+}
+
+.project-card-three {
+  background-image: url("../Images/project-7.jpg");
+}
+
+.project-card-four {
+  background-image: url("../Images/project-15.jpg");
+}
+
+.project-card-five {
+  background-image: url("../Images/project-8.jpg");
+}
+
+.project-card-six {
+  background-image: url("../Images/project-14.jpg");
+}
+
+.project-card-seven {
+  background-image: url("../Images/project-11.jpg");
+}
+
+.project-card-eight {
+  background-image: url("../Images/project-10.jpg");
 }
 
 /* end projects section  */
-
+/*  start limitless section  */
+.limitless {
+  background: radial-gradient(
+      circle,
+      rgba(0, 0, 0, 0.36) 100%,
+      rgba(0, 0, 0, 1) 100%
+    ),
+    url(../Images/img-limitless.jpg);
+}
+/*  end limitless section  */
 /* start customer && client section  */
 .bg-customer {
-    background-image: url(../Images/bg-slider.jpg);
+  background: radial-gradient(
+      circle,
+      rgba(0, 0, 0, 0.36) 100%,
+      rgba(0, 0, 0, 1) 100%
+    ),
+    url(../Images/bg-slider.jpg);
 }
-.bg-customer img , .bg-client img  {
-    width: 50px;
-    height: 50px;
+.bg-customer img,
+.bg-client img {
+  width: 50px;
+  height: 50px;
 }
 /* End customer && client section  */
 
 /* start download section  */
 .bg-download {
-    background-color: #f5f5f5;
+  background-color: #f5f5f5;
 }
 /* eend download section  */
 
- /* start footer section  */
-.footer p a:hover{
-    color: #5234f9 !important;
-    transition: all 0.3s ease-in-out;
+/* start footer section  */
+.footer p a:hover {
+  color: #5234f9 !important;
+  transition: all 0.3s ease-in-out;
 }
-.footer a i:hover{
-    color: #5234f9 !important;
-    transition: all 0.3s ease-in-out;
-
+.footer a i:hover {
+  color: #5234f9 !important;
+  transition: all 0.3s ease-in-out;
 }
 /* End footer section  */
